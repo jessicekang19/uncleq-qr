@@ -21,6 +21,7 @@
       padding: 20px;
       overflow: hidden;
       position: relative;
+      margin: 0;
     }
     
     .background {
@@ -82,11 +83,11 @@
       background: rgba(255, 255, 255, 0.9);
       backdrop-filter: blur(20px);
       border: 1px solid rgba(255, 255, 255, 0.5);
-      border-radius: 25px;
-      padding: 40px 30px;
-      max-width: 420px;
+      border-radius: 20px;
+      padding: 30px 25px;
+      max-width: 380px;
       width: 100%;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
       animation: fadeIn 0.6s ease-out;
       position: relative;
       z-index: 1;
@@ -105,15 +106,15 @@
     
     h1 {
       color: #333;
-      margin-bottom: 10px;
-      font-size: 26px;
+      margin-bottom: 6px;
+      font-size: 24px;
       font-weight: 700;
       text-align: center;
     }
     
     .subtitle {
       color: #666;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       font-size: 14px;
       text-align: center;
     }
@@ -123,9 +124,9 @@
       align-items: center;
       justify-content: center;
       gap: 12px;
-      margin: 15px 0;
-      padding: 14px 25px;
-      font-size: 16px;
+      margin: 14px 0;
+      padding: 13px 24px;
+      font-size: 15px;
       font-weight: 600;
       text-decoration: none;
       border-radius: 12px;
@@ -152,7 +153,7 @@
     
     .btn:hover {
       transform: translateY(-3px);
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     }
     
     .btn:active {
@@ -168,13 +169,13 @@
     }
     
     .icon {
-      font-size: 20px;
+      font-size: 19px;
     }
     
     .divider {
       display: flex;
       align-items: center;
-      margin: 20px 0;
+      margin: 18px 0;
       color: #999;
     }
     
@@ -188,38 +189,49 @@
     
     .divider span {
       padding: 0 15px;
-      font-size: 14px;
+      font-size: 13px;
     }
     
     .info {
       text-align: center;
       color: #888;
       font-size: 12px;
-      margin-top: 20px;
+      margin-top: 18px;
       line-height: 1.6;
     }
     
     .logo {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 18px;
     }
     
     .logo img {
-      max-width: 80px;
+      max-width: 70px;
       height: auto;
     }
     
     @media (max-width: 480px) {
+      body {
+        padding: 0;
+        align-items: center;
+      }
+      
       .container {
-        padding: 30px 20px;
+        padding: 25px 20px;
+        margin: auto;
+        border-radius: 18px;
       }
       
       h1 {
         font-size: 22px;
       }
       
+      .subtitle {
+        font-size: 13px;
+      }
+      
       .btn {
-        font-size: 15px;
+        font-size: 14px;
         padding: 12px 20px;
       }
       
@@ -238,7 +250,7 @@
   
   <div class="container">
     <div class="logo">
-      <img src="C:\Users\User\Desktop\UNCLE Q\website\qr code\logo.png" alt="Company Logo">
+      <img src="logo.png" alt="Company Logo">
     </div>
     
     <h1>Contact Us</h1>
@@ -253,14 +265,14 @@
       <span>or</span>
     </div>
     
-    <a class="btn wa" href="https://wa.me/60118881149?text=Hello, 我想要了解更多" target="_blank">
+    <a class="btn wa" href="https://wa.me/601118881149?text=Hello, 我想要了解更多" target="_blank">
       <span class="icon">💬</span>
       <span>WhatsApp Contact</span>
     </a>
     
     <div class="info">
       We usually respond within 24 hours<br>
-      Business Hours: Mon-Fri 9:00 AM - 6:00 PM
+      Like & Follow us 🌟
     </div>
   </div>
 </body>
